@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EssentialsPractice
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# InvestmentCalculatorApplication
+Investment Calculator on Angular
+>>>>>>> e9c2a64f87bdae6cc20afa3b66b0ff0e65c4f46c
