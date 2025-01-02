@@ -1,0 +1,229 @@
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project
+$ git init
+Initialized empty Git repository in C:/Users/S547532/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project/.git/
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ git add .
+warning: in the working copy of '.editorconfig', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'angular.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app.component.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app.component.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/investment-results.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.app.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.spec.json', LF will be replaced by CRLF the next time Git touches it
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ git commit -m "Investment Calculator Application - first commit"
+[main (root-commit) 34f0731] Investment Calculator Application - first commit
+ 26 files changed, 14997 insertions(+)
+ create mode 100644 .editorconfig
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 angular.json
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/investment-calculator-logo.png
+ create mode 100644 src/app/app.component.html
+ create mode 100644 src/app/app.component.ts
+ create mode 100644 src/app/header/header.component.css
+ create mode 100644 src/app/header/header.component.html
+ create mode 100644 src/app/header/header.component.ts
+ create mode 100644 src/app/investment-results/investment-results.component.css
+ create mode 100644 src/app/investment-results/investment-results.component.html
+ create mode 100644 src/app/investment-results/investment-results.component.ts
+ create mode 100644 src/app/user-input/user-input.component.css
+ create mode 100644 src/app/user-input/user-input.component.html
+ create mode 100644 src/app/user-input/user-input.component.ts
+ create mode 100644 src/index.html
+ create mode 100644 src/investment-results.ts
+ create mode 100644 src/main.ts
+ create mode 100644 src/styles.css
+ create mode 100644 tsconfig.app.json
+ create mode 100644 tsconfig.json
+ create mode 100644 tsconfig.spec.json
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ git remote add origin https://github.com/NareshKumar494/InvestmentCalculatorApplication
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/NareshKumar494/InvestmentCalculatorApplication'
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ git push -u origin main
+To https://github.com/NareshKumar494/InvestmentCalculatorApplication
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/NareshKumar494/InvestmentCalculatorApplication'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ git push -u origin main
+To https://github.com/NareshKumar494/InvestmentCalculatorApplication
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/NareshKumar494/InvestmentCalculatorApplication'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ git pull origin main
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 911 bytes | 101.00 KiB/s, done.
+From https://github.com/NareshKumar494/InvestmentCalculatorApplication
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+fatal: refusing to merge unrelated histories
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ git add .
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ git commit -m "First commit of Investment Calculator application"
+On branch main
+nothing to commit, working tree clean
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ git push -u origin main
+To https://github.com/NareshKumar494/InvestmentCalculatorApplication
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/NareshKumar494/InvestmentCalculatorApplication'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ ^C
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ git push -u origin main
+To https://github.com/NareshKumar494/InvestmentCalculatorApplication
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/NareshKumar494/InvestmentCalculatorApplication'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ git push --help
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ git pull origin main --allow-unrelated-histories
+From https://github.com/NareshKumar494/InvestmentCalculatorApplication
+ * branch            main       -> FETCH_HEAD
+Auto-merging README.md
+CONFLICT (add/add): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main|MERGING)
+$ git add .
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main|MERGING)
+$ git commit -m "Resolved merge conflicts"
+[main 4187da0] Resolved merge conflicts
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ git push -u origin main
+Enumerating objects: 39, done.
+Counting objects: 100% (39/39), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (37/37), done.
+Writing objects: 100% (37/37), 379.87 KiB | 11.17 MiB/s, done.
+Total 37 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/NareshKumar494/InvestmentCalculatorApplication
+   e9c2a64..4187da0  main -> main
+branch 'main' set up to track 'origin/main'.
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ git branch copy
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (main)
+$ git checkout copy
+Switched to branch 'copy'
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy)
+$ git add .
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy)
+$ git commit -m "Commiting to the copy branch"
+On branch copy
+nothing to commit, working tree clean
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy)
+$ git push -u origin copy
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'copy' on GitHub by visiting:
+remote:      https://github.com/NareshKumar494/InvestmentCalculatorApplication/pull/new/copy
+remote:
+To https://github.com/NareshKumar494/InvestmentCalculatorApplication
+ * [new branch]      copy -> copy
+branch 'copy' set up to track 'origin/copy'.
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy)
+$ git add index.html
+fatal: pathspec 'index.html' did not match any files
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy)
+$ ls
+README.md  angular.json  node_modules/  package-lock.json  package.json  public/  src/  tsconfig.app.json  tsconfig.json  tsconfig.spec.json
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy)
+$ cd src
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project/src (copy)
+$ ls
+app/  index.html  investment-results.ts  main.ts  styles.css
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project/src (copy)
+$ git add index.html
+warning: in the working copy of 'src/index.html', LF will be replaced by CRLF the next time Git touches it
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project/src (copy)
+$ git commit -m "modified index html"
+[copy 246f264] modified index html
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project/src (copy)
+$ git push -u origin copy
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 369 bytes | 369.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/NareshKumar494/InvestmentCalculatorApplication
+   4187da0..246f264  copy -> copy
+branch 'copy' set up to track 'origin/copy'.
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project/src (copy)
+$ git branch copy2
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project/src (copy)
+$ git checkout copy2
+Switched to branch 'copy2'
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project/src (copy2)
+$
