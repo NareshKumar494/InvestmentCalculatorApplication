@@ -1,0 +1,233 @@
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy2)
+$ git checkout copy3
+error: Your local changes to the following files would be overwritten by checkout:
+        src/app/app.component.html
+        src/app/app.component.ts
+        src/app/investment-results/investment-results.component.ts
+        src/app/user-input/user-input.component.ts
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy2)
+$ ls
+GitCommands.txt  README.md  angular.json  node_modules/  package-lock.json  package.json  public/  src/  tsconfig.app.json  tsconfig.json  tsconfig.spec.json
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy2)
+$ git add .
+warning: in the working copy of 'src/app/app.component.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app.component.ts', LF will be replaced by CRLF the next time Git touches it
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy2)
+$ git ls
+git: 'ls' is not a git command. See 'git --help'.
+
+The most similar command is
+        lfs
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy2)
+$ ls
+GitCommands.txt  README.md  angular.json  node_modules/  package-lock.json  package.json  public/  src/  tsconfig.app.json  tsconfig.json  tsconfig.spec.json
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy2)
+$ git checkout copy3
+error: Your local changes to the following files would be overwritten by checkout:
+        src/app/app.component.html
+        src/app/app.component.ts
+        src/app/investment-results/investment-results.component.ts
+        src/app/user-input/user-input.component.ts
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy2)
+$ ^C
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy2)
+$ git checkout --.
+error: unknown option `.'
+usage: git checkout [<options>] <branch>
+   or: git checkout [<options>] [<branch>] -- <file>...
+
+    -b <branch>           create and checkout a new branch
+    -B <branch>           create/reset and checkout a branch
+    -l                    create reflog for new branch
+    --[no-]guess          second guess 'git checkout <no-such-branch>' (default)
+    --[no-]overlay        use overlay mode (default)
+    -q, --[no-]quiet      suppress progress reporting
+    --[no-]recurse-submodules[=<checkout>]
+                          control recursive updating of submodules
+    --[no-]progress       force progress reporting
+    -m, --[no-]merge      perform a 3-way merge with the new branch
+    --[no-]conflict <style>
+                          conflict style (merge, diff3, or zdiff3)
+    -d, --[no-]detach     detach HEAD at named commit
+    -t, --[no-]track[=(direct|inherit)]
+                          set branch tracking configuration
+    -f, --[no-]force      force checkout (throw away local modifications)
+    --[no-]orphan <new-branch>
+                          new unborn branch
+    --[no-]overwrite-ignore
+                          update ignored files (default)
+    --[no-]ignore-other-worktrees
+                          do not check if another worktree is using this branch
+    -2, --ours            checkout our version for unmerged files
+    -3, --theirs          checkout their version for unmerged files
+    -p, --[no-]patch      select hunks interactively
+    --[no-]ignore-skip-worktree-bits
+                          do not limit pathspecs to sparse entries only
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy2)
+$ git checkout copy3
+error: Your local changes to the following files would be overwritten by checkout:
+        src/app/app.component.html
+        src/app/app.component.ts
+        src/app/investment-results/investment-results.component.ts
+        src/app/user-input/user-input.component.ts
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy2)
+$ git checkout --
+M       src/app/app.component.html
+M       src/app/app.component.ts
+M       src/app/investment-results/investment-results.component.ts
+A       src/app/investment.service.ts
+M       src/app/user-input/user-input.component.ts
+Your branch is up to date with 'origin/copy2'.
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy2)
+$ git checkout copy3
+error: Your local changes to the following files would be overwritten by checkout:
+        src/app/app.component.html
+        src/app/app.component.ts
+        src/app/investment-results/investment-results.component.ts
+        src/app/user-input/user-input.component.ts
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy2)
+$ git status
+On branch copy2
+Your branch is up to date with 'origin/copy2'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   src/app/app.component.html
+        modified:   src/app/app.component.ts
+        modified:   src/app/investment-results/investment-results.component.ts
+        new file:   src/app/investment.service.ts
+        modified:   src/app/user-input/user-input.component.ts
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Copy2 Error.txt
+
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy2)
+$ git reset --hard
+HEAD is now at 9adb0d6 Investment Calculator using signals
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy2)
+$ git clean -fd
+Removing Copy2 Error.txt
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy2)
+$ git checkout copy3
+Switched to branch 'copy3'
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy3)
+$ git add .
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy3)
+$ git commit -m "Investment Calculator using a service and signals"
+On branch copy3
+nothing to commit, working tree clean
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy3)
+$ git push -u origin copy3
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'copy3' on GitHub by visiting:
+remote:      https://github.com/NareshKumar494/InvestmentCalculatorApplication/pull/new/copy3
+remote:
+To https://github.com/NareshKumar494/InvestmentCalculatorApplication
+ * [new branch]      copy3 -> copy3
+branch 'copy3' set up to track 'origin/copy3'.
+
+
+
+
+Now I'm getting this error
+
+$ git checkout --
+M       src/app/app.component.html
+M       src/app/app.component.ts
+M       src/app/investment-results/investment-results.component.ts
+A       src/app/investment.service.ts
+M       src/app/user-input/user-input.component.ts
+Your branch is up to date with 'origin/copy2'.
+
+S547532@NW47607 MINGW64 ~/OneDrive - nwmissouri.edu/Documents/Angular/03-starting-project (copy2)
+$ git checkout copy3
+error: Your local changes to the following files would be overwritten by checkout:
+        src/app/app.component.html
+        src/app/app.component.ts
+        src/app/investment-results/investment-results.component.ts
+        src/app/user-input/user-input.component.ts
+Please commit your changes or stash them before you switch branches.
+Aborting
+ChatGPT said:
+ChatGPT
+The error persists because git checkout -- only discards unstaged changes but doesn't affect staged or new files. To resolve this, you need to handle the modified files properly.
+
+Steps to Resolve
+1. Check the Status
+Run:
+
+git status
+This will show the state of your working directory, including staged (Changes to be committed), unstaged (Changes not staged for commit), and untracked files.
+
+2. Options Based on Your Need
+Option 1: Commit All Changes
+If the changes are important:
+
+Stage all changes:
+git add .
+
+Commit them:
+git commit -m "Save changes before switching branches"
+
+Switch to copy3:
+git checkout copy3
+
+
+Option 2: Stash All Changes
+If you don't want to commit but need to save the changes temporarily:
+
+Stash your changes:
+git stash -u
+The -u flag ensures untracked files (e.g., investment.service.ts) are also stashed.
+
+Switch branches:
+git checkout copy3
+
+Apply the stash if needed:
+git stash pop
+
+Option 3: Discard All Changes
+If the changes are unnecessary:
+
+Reset to the latest commit:
+git reset --hard
+
+Remove untracked files:
+git clean -fd
+
+Switch to copy3:
+git checkout copy3
+
+Option 3 worked!!!!!!!!!!!!!!!!!!!
